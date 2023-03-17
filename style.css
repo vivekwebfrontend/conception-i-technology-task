@@ -11,13 +11,12 @@ body {
 .outer {
     width: 1920px;
     height: auto;
-    border: 4px solid red;
+    float: left;
 }
 
 .top_container {
     width: 1920px;
     height: 980px;
-    border: 1px solid blue;
     background-image: url(images/mountains.jpeg);
     background-size: cover;
     background-position: bottom;
@@ -33,14 +32,12 @@ body {
 .right_col {
     width: 775px;
     height: 980px;
-    border: 1px solid purple;
     background: rgba(255, 255, 255, 0.9);
 }
 
 .nav_bar {
     width: 1170px;
     height: 36px;
-    /* border: 1px solid black; */
     position: absolute;
     top: 24px;
     left: 375px;
@@ -49,7 +46,6 @@ body {
 .link_nav {
     width: 60%;
     height: 100%;
-    /* border: 1px solid green; */
     float: left;
     display: flex;
     align-items: center;
@@ -58,14 +54,12 @@ body {
 .button_nav {
     width: 40%;
     height: 100%;
-    /* border: 1px solid brown; */
     float: left;
 }
 
 .nav_logo {
     width: 70px;
     height: 26px;
-    /* border: 1px solid red; */
     color: white;
     font-size: 22px;
     font-weight: 800;
@@ -74,7 +68,6 @@ body {
 .links {
     width: 60%;
     height: 100%;
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     margin-left: 5%;
@@ -83,7 +76,6 @@ body {
 .login_button {
     width: 20%;
     height: 100%;
-    /* border: 1px solid black; */
     float: left;
     text-transform: uppercase;
     display: flex;
@@ -146,7 +138,6 @@ a {
 .banner_box {
     width: 1170px;
     height: 566px;
-    border: 1px solid black;
     position: absolute;
     top: 207px;
     left: 375px;
@@ -155,7 +146,6 @@ a {
 .banner_left_col {
     width: 570px;
     height: 521px;
-    border: 1px solid red;
     float: left;
     margin-top: 20px;
 }
@@ -163,15 +153,14 @@ a {
 .banner_right_col {
     width: 470px;
     height: 566px;
-    border: 1px solid pink;
     float: right;
     background-color: white;
+    position: relative;
 }
 
 .form_left_col {
     width: 370px;
     height: 100%;
-    border: 1px solid black;
     float: left;
     padding: 50px;
 }
@@ -179,7 +168,6 @@ a {
 .form_right_col {
     width: 98px;
     height: 100%;
-    border: 1px solid darkgreen;
     float: left;
     display: flex;
     align-items: center;
@@ -192,10 +180,41 @@ a {
     background-color: rgba(204, 203, 215, 0.4);
 }
 
+.small_dot_1 {
+    width: 100px;
+    height: 300px;
+    font-size: 3px;
+    margin-top: 50px;
+}
+
+.small_dot_1 i {
+    color: blue;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.dots_col {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.laptop_box {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 360px;
+    right: 10px;
+    background-image: url(images/laptop.png);
+}
+
 .form_container {
     width: 260px;
     height: 320px;
-    border: 1px solid darkred;
     float: left;
     margin-top: 8px;
 }
@@ -203,7 +222,6 @@ a {
 .form_heading {
     width: 210px;
     height: 38px;
-    border: 1px solid darkgoldenrod;
     font-weight: 800;
     font-size: 24px;
     line-height: 38px;
@@ -212,7 +230,6 @@ a {
 .input_fields {
     width: 260px;
     height: 252px;
-    border: 1px solid darkturquoise;
     margin-top: 26px;
 }
 
@@ -229,7 +246,6 @@ a {
 .signup_snd_btn {
     width: 120px;
     height: 48px;
-    border: 1px solid darkorange;
     float: left;
     margin-top: 35px;
     font-weight: 700;
@@ -243,7 +259,6 @@ a {
 .support {
     width: 100%;
     height: 20px;
-    border: 1px solid blue;
     float: left;
     margin-top: 35px;
 }
@@ -251,7 +266,6 @@ a {
 .support_text {
     width: 30%;
     height: 100%;
-    border: 1px solid brown;
     float: left;
     font-weight: 400;
     font-size: 12px;
@@ -264,10 +278,10 @@ a {
 .link {
     width: 70%;
     height: 100%;
-    border: 1px solid purple;
     float: left;
 }
-.link a{
+
+.link a {
     color: blue;
 }
 
@@ -275,7 +289,6 @@ a {
     width: 25px;
     height: 25px;
     float: left;
-    border: 1px solid purple;
 }
 
 .star i {
@@ -287,7 +300,6 @@ a {
     width: 182px;
     height: 24px;
     float: left;
-    border: 1px solid yellow;
     font-size: 16px;
     font-weight: 700;
     color: white;
@@ -298,7 +310,6 @@ a {
 .main_text {
     width: 570px;
     height: 219px;
-    border: 1px solid green;
     float: left;
     font-weight: 700;
     font-size: 60px;
@@ -312,7 +323,6 @@ a {
 .lower_text {
     width: 506px;
     height: 114px;
-    border: 1px solid aqua;
     float: left;
     font-weight: 400;
     font-size: 24px;
@@ -324,7 +334,6 @@ a {
 .read_more {
     width: 88px;
     height: 24px;
-    border: 1px solid aqua;
     float: left;
     font-weight: 700;
     font-size: 16px;
@@ -362,7 +371,6 @@ a {
     width: 100%;
     height: auto;
     float: left;
-    border: 2px solid red;
     margin-top: 40px;
 }
 
@@ -370,7 +378,6 @@ a {
     width: 40%;
     height: 450px;
     float: left;
-    border: 2px solid green;
     padding: 8% 2% 15% 15%;
     margin-left: 3%;
     position: relative;
@@ -384,7 +391,6 @@ a {
     width: 40%;
     height: 450px;
     float: left;
-    border: 2px solid green;
 }
 
 .mc_rgt-col h1 {
@@ -396,9 +402,11 @@ a {
 }
 
 .mc_rgt-col h2 {
+    width: 84%;
     text-align: right;
     font-size: 30px;
     line-height: 1.2;
+    margin-left: 120px;
 }
 
 .p1 {
@@ -408,8 +416,10 @@ a {
 }
 
 .mc_rgt-col p {
+    width: 84%;
     text-align: right;
     font-size: 16px;
+    margin-left: 120px;
 }
 
 .mc_rgt-col h6 {
@@ -422,7 +432,6 @@ a {
 .pink_strip {
     width: 70px;
     height: 265px;
-    border: 1px solid pink;
     position: absolute;
     z-index: 2;
     top: 162px;
@@ -430,5 +439,772 @@ a {
     background-color: rgba(255, 192, 203, 0.8);
 }
 
+.white_square {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+    .outer {
+        width: 100%;
+        height: auto;
+    }
+
+    .top_container {
+        width: 100%;
+        height: 934px;
+        background-image: url(images/mountains.jpeg);
+        background-size: cover;
+        background-position: bottom; 
+   }
+
+    .left_col {
+        width: 100%;
+        height: 708px;
+        background-color: rgba(69, 47, 210, 0.8);
+    }
+
+    .nav_bar {
+        width: 100%;
+        height: 36px;
+        position: absolute;
+        top: 24px;
+        left: 0;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .login_button {
+        display: none;
+    }
+
+    .login_button a {
+        display: none;
+    }
+
+    .signup_button {
+        width: 55%;
+        float: right;
+        margin-right: 15%;
+        border: 1px solid white;
+    }
+
+    .signup_button a {
+        color: white;
+    }
+
+    .nav_logo {
+        margin-left: 15%;
+    }
+
+    .banner_box {
+        width: 100%;
+        height: 845px;
+        position: absolute;
+        top: 90px;
+        left: 0;
+    }
+
+    .banner_left_col {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .star {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 5px;
+        left: 80px;
+    }
+
+    .star i {
+        font-size: 18px;
+    }
+
+    .heading {
+        width: 182px;
+        height: 24px;
+        font-size: 14px;
+        position: absolute;
+        top: 0;
+        left: 95px;
+    }
+
+    .main_text {
+        width: 100%;
+        height: auto;
+        font-size: 42px;
+        line-height: 51px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .lower_text {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .read_more {
+        top: 338px;
+        left: 120px;
+    }
+
+    .down_button {
+        top: 338px;
+        left: 212px;
+    }
+
+    .banner_right_col {
+        width: 100%;
+        height: 325px;
+    }
+
+    .form_left_col {
+        width: 315px;
+        height: 440px;
+        background-color: white;
+        padding: 25px;
+        position: absolute;
+        top: -125px;
+        left: 28px;
+    }
+
+    .input {
+        height: 44px;
+    }
+
+    .signup_snd_btn {
+        margin-top: 0;
+    }
+
+    .support {
+        margin-top: 8px;
+    }
+
+    .support_text {
+        width: 21%;
+    }
+
+    .link {
+        font-size: 12px;
+        width: 21%;
+    }
+
+    .form_gray_strip {
+        display: none;
+    }
+
+    .laptop_box {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 230px;
+        right: 52px;
+        background-image: url(images/laptop.png);
+        background-size: cover;
+    }
+
+    .right_col {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    .mid_container {
+        height: 672px;
+        margin-top: 0;
+    }
+
+    .mc_rgt-col {
+        width: 100%;
+        height: 665px;
+        margin-top: -236px;
+    }
+
+    .mc_rgt-col h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .mc_rgt-col h2 {
+        width: 85%;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1.2;
+        font-size: 28px;
+        margin: 0 auto;
+    }
+
+    .mc_rgt-col p {
+        width: 98%;
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 0;
+        padding-left: 5px;
+    }
+
+    .mc_rgt-col h6 {
+        text-align: center;
+    }
+
+    .mc_left_col {
+        width: 100%;
+        height: 238px;
+        padding: 5% 5% 54% 6%;
+        margin-left: 0%;
+        position: relative;
+        top: 425px;
+    }
+
+    .pink_strip {
+        width: 45px;
+        height: 185px;
+        top: 32px;
+        left: 37px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+
+
+    .outer {
+        width: 100%;
+        height: auto;
+    }
+
+    .top_container {
+        width: 100%;
+        height: 1050px;
+        background-image: url(images/mountains.jpeg);
+        background-size: cover;
+        background-position: bottom;     }
+
+    .left_col {
+        width: 100%;
+        height: 844px;
+        background-color: rgba(69, 47, 210, 0.8);
+    }
+
+    .nav_bar {
+        width: 100%;
+        height: 36px;
+        position: absolute;
+        top: 24px;
+        left: 0;
+    }
+
+    .links {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+    }
+
+    .login_button {
+        width: 46%;
+        float: right;
+        margin-right: 125px;
+    }
+
+    .login_button a {
+        color: white;
+    }
+
+    .signup_button {
+        width: 46%;
+        float: right;
+        margin-right: 28px;
+        margin-top: -34px;
+        border: 1px solid white;
+    }
+
+    .signup_button a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .nav_logo {
+        width: auto;
+        height: auto;
+        margin-left: 6%;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    li {
+        float: left;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 16px;
+        text-transform: uppercase;
+    }
+
+    .button_nav {
+        width: 29%;
+        height: 100%;
+        float: left;
+    }
+
+    .link_nav {
+        width: 71%;
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner_box {
+        width: 100%;
+        height: 922px;
+        position: absolute;
+        top: 130px;
+        left: 0;
+    }
+
+    .banner_left_col {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .star {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 5px;
+        left: 250px;
+    }
+
+    .star i {
+        font-size: 22px;
+    }
+
+    .heading {
+        width: 182px;
+        height: 24px;
+        font-size: 16px;
+        position: absolute;
+        top: 0;
+        left: 268px;
+    }
+
+    .main_text {
+        width: 100%;
+        height: auto;
+        font-size: 60px;
+        line-height: 73px;
+        text-align: center;
+        margin-top: 68px;
+    }
+
+    .lower_text {
+        width: 100%;
+        height: auto;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        margin-top: 42px;
+        padding: 0 100px;
+    }
+
+    .read_more {
+        top: 405px;
+        left: 295px;
+    }
+
+    .down_button {
+        top: 405px;
+        left: 390px;
+    }
+
+    .banner_right_col {
+        width: 100%;
+        height: 204px;
+        margin-top: 198px;
+    }
+
+    .form_left_col {
+        width: 402px;
+        height: 440px;
+        background-color: white;
+        padding: 25px;
+        position: absolute;
+        top: -267px;
+        left: 150px;
+    }
+
+    .input {
+        height: 44px;
+    }
+
+    .signup_snd_btn {
+        margin-top: 0;
+    }
+
+    .support {
+        margin-top: 8px;
+    }
+
+    .support_text {
+        width: 21%;
+    }
+
+    .link {
+        font-size: 12px;
+        width: 21%;
+    }
+
+    .laptop_box {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 60px;
+        right: 182px;
+        background-image: url(images/laptop.png);
+        background-size: cover;
+    }
+
+    .right_col {
+        display: none;
+    }
+    .form_gray_strip {
+        width: 70px;
+        height: 415px;
+        position: absolute;
+        top: -251px;
+        right: 170px;
+        background-color: rgba(204, 203, 215, 0.4);
+    }
+
+
+
+
+
+
+
+
+
+    .mid_container {
+        height: 906px;
+        margin-top: 0;
+    }
+
+    .mc_rgt-col {
+        width: 100%;
+        height: 485px;
+        margin-top: -420px;
+    }
+
+    .mc_rgt-col h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .mc_rgt-col h2 {
+        width: 85%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.2;
+        margin: 0 auto;
+    }
+
+    .mc_rgt-col p {
+        width: 98%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 0;
+        padding: 0 36px;
+        padding-left: 31px;
+    }
+
+    .mc_rgt-col h6 {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .mc_left_col {
+        width: 100%;
+        height: 238px;
+        padding: 5% 10% 54% 10%;
+        margin-left: 0%;
+        position: relative;
+        top: 484px;
+    }
+
+    .pink_strip {
+        width: 70px;
+        height: 334px;
+        top: 52px;
+        left: 90px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .outer {
+        width: 100%;
+        height: auto;
+    }
+
+    .top_container {
+        width: 100%;
+        height: 934px;
+        background-image: none;
+    }
+
+    .left_col {
+        width: 100%;
+        height: 708px;
+    }
+
+    .nav_bar {
+        width: 100%;
+        height: 36px;
+        position: absolute;
+        top: 24px;
+        left: 0;
+    }
+
+    .links {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .login_button {
+        display: none;
+    }
+
+    .login_button a {
+        display: none;
+    }
+
+    .signup_button {
+        width: 55%;
+        float: right;
+        margin-right: 15%;
+        border: 1px solid white;
+    }
+
+    .signup_button a {
+        color: white;
+        font-size: 12px;
+    }
+
+    .nav_logo {
+        margin-left: 3%;
+        font-size: 20px;
+    }
+
+    li {
+        float: left;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 7px;
+        text-transform: uppercase;
+    }
+
+    .button_nav {
+        width: 23%;
+        height: 100%;
+        float: left;
+    }
+
+    .link_nav {
+        width: 77%;
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner_box {
+        width: 100%;
+        height: 845px;
+        position: absolute;
+        top: 90px;
+        left: 0;
+    }
+
+    .banner_left_col {
+        width: 100%;
+        height: 844px;
+        margin-top: 0;
+    }
+
+    .star {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 37px;
+        left: 135px;
+    }
+
+    .star i {
+        font-size: 18px;
+    }
+
+    .heading {
+        width: 190px;
+        height: 24px;
+        font-size: 16px;
+        position: absolute;
+        top: 37px;
+        left: 151px;
+    }
+
+    .main_text {
+        width: 100%;
+        height: 146px;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .lower_text {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: -61px;
+        padding: 31px;
+    }
+
+    .read_more {
+        top: 294px;
+        left: 176px;
+    }
+
+    .down_button {
+        top: 294px;
+        left: 273px;
+    }
+
+    .banner_right_col {
+        width: 100%;
+        height: 320px;
+    }
+
+    .form_left_col {
+        width: 315px;
+        height: 440px;
+        background-color: white;
+        padding: 25px;
+        position: absolute;
+        top: -125px;
+        left: 28px;
+    }
+
+    .input {
+        height: 44px;
+    }
+
+    .signup_snd_btn {
+        margin-top: 0;
+    }
+
+    .support {
+        margin-top: 8px;
+    }
+
+    .support_text {
+        width: 21%;
+    }
+
+
+    .link {
+        font-size: 12px;
+        width: 21%;
+    }
+
+    .form_gray_strip {
+        display: none;
+    }
+
+    .small_dot_1 {
+        display: none;
+    }
+
+    .laptop_box {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 448px;
+        right: 15px;
+        background-image: url(images/laptop.png);
+        background-size: cover;
+    }
+
+    .form_left_col {
+        width: 315px;
+        height: 440px;
+        background-color: white;
+        padding: 25px;
+        position: absolute;
+        top: -142%;
+        left: 23%;
+    }
+
+    .form_right_col {
+        display: none;
+    }
+
+    .pink_strip {
+        display: none;
+    } */
