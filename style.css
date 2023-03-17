@@ -913,6 +913,7 @@ a {
         position: absolute;
         top: -267px;
         left: 150px;
+        box-shadow: 0 0 30px rgb(0 0 0 / 40%);
     }
 
     .input {
