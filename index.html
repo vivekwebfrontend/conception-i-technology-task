@@ -46,9 +46,9 @@
 
                     <div class="button_nav">
 
-                        <div class="login_button"><a href="login.html">sign in</a></div>
+                        <div class="login_button"><a href="#">sign in</a></div>
 
-                        <div class="signup_button"><a href="signup.html">sign up</a></div>
+                        <div class="signup_button"><a href="#">sign up</a></div>
 
                     </div>
 
@@ -172,7 +172,24 @@
                     clients.
                 </p>
 
-                <h6>← 1/2 →</h6>
+                <h6><a class="prev" onclick="plusSlides(-1)">←</a> 1/2 <a class="next" onclick="plusSlides(-1)">→</a>
+                </h6>
+
+            </div>
+
+            <div class="mc_rgt-col">
+
+                <h1>Lorem Ipsum?</h1>
+
+                <h2>Where does it come from?</h2>
+
+                <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                </p>
+
+                <h6><a class="prev" onclick="plusSlides(-1)">←</a> 2/2 <a class="next" onclick="plusSlides(-1)">→</a>
+                </h6>
 
             </div>
 
@@ -181,6 +198,17 @@
 
 
 
+    </div>
+
+    <!-- modal -->
+    <div id="signup_popup">
+        <div class="signup_center">
+            Modal Coming soon
+
+            <div class="sign_close">
+                <img src="https://img.icons8.com/ios-glyphs/256/macos-close.png" />
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

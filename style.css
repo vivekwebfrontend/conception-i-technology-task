@@ -111,6 +111,46 @@ body {
     color: #381DDB;
 }
 
+#signup_popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.signup_center {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+}
+
+.show_signup {
+    display: block !important;
+}
+
+.sign_close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.sign_close img {
+    width: 30px;
+}
 
 ul {
     list-style-type: none;
@@ -366,7 +406,6 @@ a {
 
 
 
-
 .mid_container {
     width: 100%;
     height: auto;
@@ -391,6 +430,11 @@ a {
     width: 40%;
     height: 450px;
     float: left;
+}
+
+.mc_rgt-col a {
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
 }
 
 .mc_rgt-col h1 {
@@ -449,13 +493,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
 @media screen and (min-width: 320px) and (max-width: 500px) {
 
     .outer {
@@ -463,13 +500,17 @@ a {
         height: auto;
     }
 
+    .signup_center {
+        width: 80%;
+    }
+
     .top_container {
         width: 100%;
         height: 934px;
         background-image: url(images/mountains.jpeg);
         background-size: cover;
-        background-position: bottom; 
-   }
+        background-position: bottom;
+    }
 
     .left_col {
         width: 100%;
@@ -715,7 +756,8 @@ a {
         height: 1050px;
         background-image: url(images/mountains.jpeg);
         background-size: cover;
-        background-position: bottom;     }
+        background-position: bottom;
+    }
 
     .left_col {
         width: 100%;
@@ -907,6 +949,7 @@ a {
     .right_col {
         display: none;
     }
+
     .form_gray_strip {
         width: 70px;
         height: 415px;
@@ -980,5 +1023,3 @@ a {
     }
 
 }
-
-
